@@ -21,3 +21,11 @@ function soma (numero1, numero2) {
 };
 
 console.log(soma(5,3))
+
+funstion verificarPar(numero){
+    if (numero % 2 === 0 ){
+        return "O número é par"
+    }
+};
+
+console.log(verificarPar(3));
