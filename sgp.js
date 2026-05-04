@@ -20,3 +20,14 @@ function filtrarMissoesConcluidas(listaDeMissoes) {
     return apenasConcluidas = listaDeMissoes.filter(verificarStatusDaMissao);
     return apenasConcluidas;
 };
+
+function atualizarInventario(inventarioAtual, acao, nomeDoitem) {
+    let novoInventario;
+
+    if(acao ==="pegar") {
+        const inventarioComItemNovo;
+    } else if (acao ==="destacar") {
+        const InventarioSemUltimoItem = inventarioAtual.slice();
+        novoInventario = inventarioAtual;
+    }
+    return novoInventario;
